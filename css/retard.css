@@ -1,0 +1,228 @@
+body{
+    background: #0A092D;
+}
+
+/*div de la page complete*/
+.allBloc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+}
+/*div de la premiere partie (header)*/
+.premierBloc{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.premierBloc_Gauche{
+    margin-left: 10%;
+    width: 40%;
+    background: #151E2F;
+    border-right: 1px solid white;
+}
+
+.premierBloc_GaucheText{
+    color: white;
+    font-size: 32px;
+    padding: 0.5em;
+}
+
+.premierBloc_Droit{
+    margin-right: 10%;
+    width: 60%;
+    background: #151E2F;
+}
+
+.premierBloc_DroitSearchBar{
+
+}
+
+.premierBloc_DroitBtnNewRetard{
+    
+}
+
+/*BOX IMAGES*/
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: 100%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.colCard{
+    width: 80%;
+    display: flex;
+}
+
+.card{
+    background: #151e2f;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+}
+
+.textCard{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    padding: 1vh;
+}
+
+.iconCard{
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 1vh;
+}
+
+.premierBloc_DroitBtnNewRetard{
+    display: flex;
+    width: auto;
+    margin: 1.5em;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    color: #62BDA3;
+}
+
+/* 1,5 partie */
+.resultSearch{
+    margin-top: 1%;
+}
+
+/* 2e partie (filtre de la page) */
+.deuxiemeBloc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+    font-family: 'Roboto';
+    margin-top: 1em;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.deuxiemeBloc_SearchTitle{
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+
+.rmSearch{
+    margin-right: 1vh;
+    margin-bottom: 2vh;
+    width: 40%;
+    height: 5vh;
+    display: flex;
+}
+
+.rmSearchBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    width: 30%;
+    height: 4vh;
+    background-color: #62BDA3;
+    color: black;
+    border: 1px Solid black;
+    border-radius: 5px;
+    margin-bottom: 1vh;
+}
+
+.formSelectStudent, .formSelectCours .formSelectMonth{
+    width: 100%;
+}
+
+.formSelectCours{
+    margin-top: 1vh;
+}
+
+/* 3e partie ( corp de page ) */
+
+.troisiemeBloc{
+    width: 80%;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: #151E2F;
+    display: flex;
+    flex-direction: column;
+}
+
+.troisiemeBloc_Case{
+    color: white;
+    border: 1px solid black;
+    display: flex;
+}
+
+.troisiemeBloc_CaseFirst{
+    width: 20%;
+    padding: 3vh;
+    display: flex;
+    border-right: 1px solid white;
+}
+
+.CaseDate{
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.troisiemeBloc_CaseSecond{
+    width: 80%;
+    padding: 3vh;
+}
+
+.caseName{
+    letter-spacing: 2px;
+    font-size: 17px;
+    font-family: 'Roboto';
+}
+
+.CaseContent{
+    letter-spacing: 2px;
+    font-family: 'Roboto';
+    font-size: 17px;
+}
+
+.CaseClasse{
+    letter-spacing: 2px;
+    font-family: 'Roboto';
+    font-size: 17px;
+}
+
+.troisiemeBloc_CaseSecond_BtnModifier{
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    background-color: #62BDA3;
+}
+
+.troisiemeBloc_CaseSecond_BtnDelete{
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0.5em;
+    color: black;
+    cursor: pointer;
+    background-color: #ff235e;
+}
