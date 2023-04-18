@@ -226,3 +226,72 @@ body{
     cursor: pointer;
     background-color: #ff235e;
 }
+
+/* les mobiles */
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px){
+    .allBloc{
+        margin-top: 1em;
+    }
+
+    .premierBloc{
+        flex-direction: column;    
+    }
+
+    .premierBloc_Gauche{
+        width: 80%;
+        border-right: none;
+    }
+
+    .premierBloc_Droit{
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .textCard{
+        font-size: 18px;
+    }
+
+    .iconCard{
+        font-size: 25px;
+    }
+
+    .deuxiemeBloc_SearchTitle{
+        font-size: 18px;
+    }
+
+    .FormRetard{
+        width: 70%;
+        height: 25%;
+        margin-top: 1em;
+    }
+    
+    .form-select{
+        font-size: 12px;
+    }
+
+    .rmSearchBtn{
+        width: 65%;
+        height: 25%;
+        margin-top: 1em;
+    }
+
+}
+
+/* petit écran, ordinateur portable */
+@media only screen and (min-device-width : 769px){
+    .FormRetard{
+        width: 45%;
+        height: 25%;
+        margin-top: 1em;
+    }
+
+    .form-select{
+        font-size: 19px;
+    }
+
+    .rmSearchBtn{
+        width: 35%;
+        height: 25%;
+        margin-top: 0.5em;
+    }
+}
